@@ -23,5 +23,5 @@ jobs:
             az deployment group create \
             --name StorageAccountDeployment \
             --resource-group savdevgithubdeploy \
-            --template-file infrastructure\template.bicep \
+            --template-file ./infrastructure\template.bicep \
             --parameters storageAccountType=Standard_GRS
