@@ -19,6 +19,7 @@ jobs:
       - name: Deploy bicep Template
         uses: azure/CLI@v1
         with:
+
           inlineScript: |
             az deployment group create \
             --name StorageAccountDeployment \
