@@ -25,5 +25,6 @@ jobs:
             az deployment group create \
             --name StorageAccountDeployment \
             --resource-group CofC \
-            --template-file ./infrastructure/testDeploy.json \
-            --parameters storageAccountName= "StorageAccountDeployment"
+            --template-file ./infrastructure/testDeploy.json 
+
+     
