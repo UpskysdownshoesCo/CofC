@@ -14,10 +14,10 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Checkout source code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Deploy bicep Template
-        uses: azure/CLI@v2
+        uses: azure/CLI@v1
         with:
 
           inlineScript: |
