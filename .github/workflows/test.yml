@@ -22,6 +22,6 @@ jobs:
           inlineScript: |
             az deployment group create \
             --name StorageAccountDeployment \
-            --resource-group savdevgithubdeploy \
+            --resource-group CofC \
             --template-file ./infrastructure\template.bicep \
             --parameters storageAccountType=Standard_GRS
