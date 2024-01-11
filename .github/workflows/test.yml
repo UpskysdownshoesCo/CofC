@@ -25,5 +25,5 @@ jobs:
             az deployment group create \
             --name StorageAccountDeployment \
             --resource-group CofC \
-            --template-file ./infrastructure\template.bicep \
+            --template-file ./infrastructure\testDeploy.json \
             --parameters storageAccountType=Standard_GRS
