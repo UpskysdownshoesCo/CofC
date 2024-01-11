@@ -26,4 +26,4 @@ jobs:
             --name StorageAccountDeployment \
             --resource-group CofC \
             --template-file ./infrastructure/testDeploy.json \
-            
+            --parameters storageAccountName = test
