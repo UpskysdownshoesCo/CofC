@@ -23,7 +23,7 @@ jobs:
         
           inlineScript: |
             az deployment group create \
-            --name StorageAccountDeployment \
+            --name storageaccountdeployment \
             --resource-group CofC \
             --template-file ./infrastructure/testDeploy.json \
-            --parameters storageAccountName=StorageAccountDeployment
+            --parameters storageAccountName=storageaccountdeployment
