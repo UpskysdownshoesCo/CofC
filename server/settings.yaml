@@ -39,8 +39,8 @@ monitoring_key: ""
 
 # To enable JWT Bearer authentication, provide audience and issuer configuration
 auth:
-  audience: ""
-  issuer: ""
+  audience: "api://a96791c9-7ccc-4039-a7d0-3603d8b83b1d"
+  issuer: "1e1e11de-a49b-4717-a2d9-a7a68529516d"
 # Example of authentication for an API in Azure Active Directory:
 # auth:
 #   audience: api://e9ee7140-519d-458c-9621-0b3e110ea5a3
